@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Money Manager | LifeQuest</title>
+</head>
+
+<body>
+  <header>
+    <h1>LifeQuest</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="money_manager.html">Money Manager</a>
+      <a href="healthy_habits_tracker.html">Healthy Habits</a>
+      <a href="productivity.html">Productivity</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="money-manager">
+      <h2>Money Manager</h2>
+
+      <label for="income"> Monthly Income </label>
+      <input type="number" id="income" placeholder="Enter income">
+
+      <h3>Expenses</h3>
+      <div class="expense">
+        <input type="text" placeholder="Category">
+        <input type="number" class="expense-amount" placeholder="Amount">
+      </div>
+
+      <button id="calculate"> Calculate Budget </button>
+
+      <div class="summary">
+        <p>Total Expenses: <span id="totalExpenses">0</span></p>
+        <p>Remaining Budget: <span id="remainingBudget">0</span></p>
+      </div>
+    </section>
+  </main>
+
+ 
+</body>
+</html>
