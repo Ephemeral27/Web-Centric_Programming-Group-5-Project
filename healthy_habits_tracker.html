@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healthy Habits | LifeQuest</title>
+ 
+</head>
+
+<body>
+  <header>
+    <h1>LifeQuest</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="money_manager.html">Money Manager</a>
+      <a href="healthy_habits_tracker.html">Healthy Habits</a>
+      <a href="productivity.html"> Productivity </a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="habits">
+      <h2>Healthy Habits Tracker</h2>
+      <p>Log your daily habits to improve your wellness stats and earn rewards.</p>
+
+      <form id="habitsForm">
+        <div class="habit-row">
+          <label for="water">Water (glasses)</label>
+          <input type="number" id="water" min="0" max="20" placeholder="e.g., 8">
+        </div>
+
+        <div class="habit-row">
+          <label for="sleep">Sleep (hours)</label>
+          <input type="number" id="sleep" min="0" max="24" placeholder="e.g., 7">
+        </div>
+
+        <div class="habit-row">
+          <label for="exercise">Exercise (minutes)</label>
+          <input type="number" id="exercise" min="0" max="300" placeholder="e.g., 30">
+        </div>
+
+        <div class="habit-row">
+          <label for="meals">Meals (notes)</label>
+          <input type="text" id="meals" placeholder="e.g., balanced meals, no soda">
+        </div>
+
+        <button type="button" id="logToday">Log Today</button>
+      </form>
+
+      <section class="wellness-summary">
+        <h3>Wellness Summary</h3>
+
+        <p>Hydration: <span id="hydrationStatus"> — </span></p>
+        <p>Sleep: <span id="sleepStatus"> — </span></p>
+        <p>Activity: <span id="activityStatus"> — </span></p>
+
+        <p id="feedback">Fill in your habits and press “Log Today”.</p>
+      </section>
+    </section>
+  </main>
+
+  
+</body>
+</html>
