@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UFT-8">
+    <title>Sign up!</title>
+    </head>
+    <body>
+        <h1>Sign Up!</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="healthy_habits_tracker.html">Healthy Habit Tracker</a>
+            <a href="money_manager.html">Money Manager</a>
+            <a href="productivity.html">Productivity Arena</a>
+            <a href="achievement_system.html">My Achievements</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+        <main id = "sign_up_form">
+            <!--The form starts here-->
+            <!--username and password-->
+            <h3 class = "form_title">Username and Password</h3>
+            <label>
+                Please enter a username: <input type = "text" name="username" name="username">
+            </label>
+            <br>
+            <label>
+                Please enter a password: <input type = "password" name="password" name="password">
+            </label>
+            <!--collect user's email and phone number-->
+            <h3 class = "form_title">Contact and Information</h3>
+            <label>
+                Enter your email: <input type = "email" name="user_email" id="user_email">
+            </label>
+            <br>
+            <label>
+                Enter your phone number: <input type = "tel" name="user_phone" id="user_phone">
+            </label>
+            <br>
+            <!--mailing address-->
+            <label>
+                Enter your mailing address: <input type = "text" name="address" id="address">
+            </label>
+            <!--Ask for their preferred method of contact-->
+            <br>
+            <br>
+            <label>
+                We might need to reach out to you in regards to new features and your subscription. 
+                What is your preferred method of communication?  
+            </label>
+            <br>
+            <input type = "checkbox" name="prefers_email" id="prefers_email"><label for="prefers_email">I would like to be contacted by email</label><br>
+            <input type = "checkbox" name="prefers_texts" id="prefers_texts"><label for="prefers_texts">I would like to be contacted by text message</label><br>
+            <!--credit card information-->
+            <h3 class = "form_title">Billing Information</h3>
+            <label>
+                Credit card company: 
+            </label>
+            <br>
+            <input type = "radio" name="credit_card_company" id="visa" required><label for="visa">Visa</label><br>
+            <input type = "radio" name="credit_card_company" id="mastercard"><label for="mastercard">Mastercard</label><br>
+            <input type = "radio" name="credit_card_company" id="american_express"><label for="american_express">American Express</label><br>
+            <input type = "radio" name="credit_card_company" id="discover"><label for="discover">Discover</label><br>
+            <!--additional info-->
+            <label>
+                If there is anything else you want us to know about you, please enter it here: <br><textarea type="textarea" name="feedback" id="feedback" cols="30" rows="10"></textarea> 
+            </label>
+            <br>
+            <input type="submit" value="submit_form">
+            <br>
+            <input type="reset">
+        </main>
+    </body>
+    
+</html>
