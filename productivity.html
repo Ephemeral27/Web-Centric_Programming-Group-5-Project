@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="UFT-8">
+        <title>My Productivity Arena</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+       <!-- <iframe src="https://studywithme.io/aesthetic-pomodoro-timer/" height="350" width="400"></iframe>-->
+       <!-- <iframe src="https://flocus.com/aesthetic-quotes/" height="200" width="300"></iframe>-->
+        <h1>My Productivity Arena</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="healthy_habits_tracker.html">Healthy Habit Tracker</a>
+            <a href="money_manager.html">Money Manager</a>
+            <a href="achievement_system.html">My Achievements</a>
+            <a href="signup_page.html">Sign Up!</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+       <!--The Todo List-->
+       <div class="container" style="border-style: solid; border-width: 2px; border-color: black;">
+            <div class="todo-app">
+                <h1>To-Do App</h1>
+                <form class="input-area">
+                    <input type="text" id="task-input" placeholder="Add a new task!">
+                    <button type="submit" id="add-task"><i class="fa-solid fa-plus"></i></button> 
+                    <!--This is to show how it should look at the end-->
+                    <br>
+                    <input type="checkbox" id="checkbox-item-1" name="checkbox-item-1" value="task-1">
+                    <label for="checkbox-item-1">Task 1</label>
+                    <br>
+                    <input type="checkbox" id="checkbox-item-2" name="checkbox-item-2" value="task-2">
+                    <label for="checkbox-item-2">Task 2</label>
+                    <br>
+                    <input type="checkbox" id="checkbox-item-3" name="checkbox-item-3" value="task-3">
+                    <label for="checkbox-item-3">Task 3</label>
+                </form>
+                <div class="todos-container">
+                    <ul id="task-list"></ul>
+                    <!--<img class="empty-image" src="./images/empty.svg" alt="empty">-->
+                </div>
+            </div>
+       </div>
+       <!--The Pomodoro timer-->
+       <!--This is a box to show where the pomodoro box will be-->
+       <br>
+       <div class="example-div-box" style="border-style: solid; border-width: 2px; border-color: black;">
+       <div class="timer-buttons">
+            <button class="timer-btn pomodoro active" data-time="1500">Pomodoro</button>
+            <button class="timer-btn short-break" data-time="300">Short Break</button>
+            <button class="timer-btn long-break" data-time="900">Long Break</button>
+       </div>
+
+       <div class="circle">
+            <div class="inner-circle">
+                <div class="countdown">
+                    <h1></h1>
+                    <p class="play-pause"></p>
+                </div>
+            </div>
+       </div>
+       <p>Here is where our pomodoro timer is! You can't see it in its full glory just yet, I need to add some css and javascript for it to be completed</p>
+       </div>
+       <!--Habit Tracker-->
+       <br>
+        <div id="example-tracker-box" style="border-style: solid; border-width: 2px; border-color: black;">
+       <h1 id="title">Month</h1>
+       <h2 id="subtitle">Monthly Habit Tracker</h2> 
+       <!--calendar area-->
+       <div id="calendarContainer">
+            <div id="calendarDiv">
+                <div id="calendarHeading">
+                    <p id="habitTitle">My New Habit</p>
+                    <p id="totalDays">0/31</p>
+                </div>
+                <div id="calendarContent">
+                    <div id="tracker">
+                        <div class="days">
+                            <div class="day">1</div>
+                            <div class="day">1</div>
+                            <div class="day">1</div>
+                            <div class="day">1</div>
+                            <div class="day">1</div>
+                            <div class="day">1</div>
+                            <div class="day">1</div>
+                        </div>
+                        <div class="days">
+                            <div class="day">1</div>
+                            <div class="day">1</div>
+                            <div class="day">1</div>
+                            <div class="day">1</div>
+                            <div class="day">1</div>
+                            <div class="day">1</div>
+                            <div class="day">1</div>
+                        </div>
+                        <div class="days">
+                            <div class="day">1</div>
+                            <div class="day">1</div>
+                            <div class="day">1</div>
+                            <div class="day">1</div>
+                            <div class="day">1</div>
+                            <div class="day">1</div>
+                            <div class="day">1</div>
+                        </div>
+                        <div class="days">
+                            <div class="day">1</div>
+                            <div class="day">1</div>
+                            <div class="day">1</div>
+                            <div class="day">1</div>
+                            <div class="day">1</div>
+                            <div class="day">1</div>
+                            <div class="day">1</div>
+                        </div>
+                        <div class="days">
+                            <div class="day">1</div>
+                            <div class="day">1</div>
+                            <div class="day">1</div>
+                            <div class="day">1</div>
+                            <div class="day">1</div>
+                            <div class="day">1</div>
+                            <div class="day">1</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+       <button id="resetButton">Reset Button</button>
+       <br>
+       <p>This is our habit tracker, it looks a bit messy for now since its just html. Each of these 1's will become a button to track our progress!</p>
+       </div>
+    </body>
+
+</html>
