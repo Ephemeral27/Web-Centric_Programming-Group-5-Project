@@ -152,6 +152,69 @@ align-items:flex-start;
 width:100%;
 
 }
-
-
 }
+
+
+/* MONEY MANAGER SECTION */
+.money-manager{
+    background:white;
+    max-width:900px;
+    margin:2rem auto;
+    padding:2rem;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+
+.income-row{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    flex-wrap:wrap;
+}
+
+.money-manager input{
+    flex:1;
+    max-width: 320px;
+    padding:10px 12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+
+.expense{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    margin-bottom:10px;
+}
+
+
+#calculate{
+    background:#6c63ff;
+    color:white;
+    border:none;
+    padding:10px 16px;
+    border-radius:8px;
+    cursor:pointer;
+    margin-top: 20px;
+}
+
+
+.summary{
+    margin-top:20px;
+    padding:15px;
+    background:#f8f9fb;
+    border-radius:10px;
+    line-height: 1.6;
+}
+
+#totalExpenses, #remainingBudget{
+    flex:1;
+    min-width: 180px;
+}
+
+
+
+
+
