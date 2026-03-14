@@ -109,6 +109,8 @@ text-align:center;
 margin-top:30px;
 padding:15px;
 background:#eee;
+/*background:#fdefe1;
+background-image: linear-gradient(to bottom, #fdefe1, white,white, #FCE8D5);*/
 }
 
 
@@ -273,4 +275,30 @@ background:#4f46e5;
 
 
 
+/*sign up page*/
+
+/*--cotton-rose: #D3B0AEff;
+--soft-blush: #E6CBCFff;
+--rosy-taupe: #C3928Dff;
+--peach-fuzz: #FAD6BAff;
+--antique-white: #FCE8D5ff;
+--slate-grey: #698587ff;*/
+fieldset{
+    border-radius: 25px;
+    text-align: center;
+    border: 3px outset #E6CBCF;
+    /*stuff to try*/
+    background:white;
+    padding:20px;
+    /*border-radius:10px;*/
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+    /*background-image: linear-gradient(to bottom, #FCE8D5ff, white,white, #FCE8D5ff);*/
+}
+legend{
+    color: #80504a;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*PRODUCTIVITY ARENA*/
 
