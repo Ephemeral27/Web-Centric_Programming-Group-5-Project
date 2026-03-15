@@ -769,6 +769,11 @@ legend{
     justify-content: center;
 
 }
+.achievement-grig{
+    display: flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
 
 
 
@@ -778,7 +783,7 @@ legend{
     background:#f5f7fb;
     padding:20px;
     border-radius:10px;
-    border:3px outset #E6CBCF;
+    border:1px solid #E6CBCF;
     margin-bottom:10px ;
 }
 
