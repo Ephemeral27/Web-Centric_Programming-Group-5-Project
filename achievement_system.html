@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>LifeQuest - Achievement System</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header>
@@ -20,16 +21,20 @@
       <a href="signup_page.html">Sign up!</a>
     </nav>
     <main>
-      <section>
-        <h2>How the Achievemnt System Works</h2>
+      <section class="achievement-intro">
+        <h2>How the Achievement System Works</h2>
         <p>
           The achievement system rewards users for completing tasks, maintaining streaks, and reaching
           milestones across different categories of the application.
         </p>
       </section>
-      <section>
+      <section class="achievement-categories">
+        
         <h2>Achievement Categories</h2>
-        <article>
+        
+        <div class="achievement-grid">
+          
+        <article class="achievement-card">
           <h3>Health Achievements</h3>
           <ul>
             <li>7 Days Workout Streak</li>
@@ -37,7 +42,8 @@
             <li>Healthy Sleep Badge</li>
           </ul>
         </article>
-        <article>
+        
+        <article class="achievement-card">
           <h3> Money Achievement</h3>
           <ul>
             <li>First Budget Created</li>
@@ -45,7 +51,8 @@
             <li>Expense Tracker Pro</li>
           </ul>
         </article>
-        <article>
+        
+        <article class="achievement-card">
           <h3>Productivity Achievements</h3>
           <ul>
             <li>Daily Planner Master</li>
@@ -53,8 +60,12 @@
             <li>Weekly Goal Crusher</li>
           </ul>
         </article>
+        </div>
+        
       </section>
-      <section>
+
+      
+      <section class="achievement-reward">
         <h2>Visual Rewards</h2>
         <img src="images/trophy.png" alt="Achievement badges representing progress and rewards" height="200" width="200">
         <p>
