@@ -349,6 +349,13 @@ color:#1f2937;
 margin-bottom:10px;
 }
 
+.achievement-grid{
+display: flex;
+flex-wrap :wrap;
+gap:20px;
+margin-top:15px;
+}
+
 .achievement-reward{
 text-align: center;
 background: white;
