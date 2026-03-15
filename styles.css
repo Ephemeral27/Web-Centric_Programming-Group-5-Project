@@ -728,8 +728,22 @@ color:#1f2937;
 margin-bottom:10px;
 }
 
+.works{
+display:flex;
+flex-wrap:wrap;
+gap:20px;
+margin-top:20px;
+margin-bottom:25px;
+}
 
-
+.work{
+background:#f5f7fb;
+padding:15px;
+border-radius:8px;
+border:1px solid #d1d5db;
+flex:1;
+min-width:220px;
+}
 
 
 /* ACHIEVEMENT PAGE */
