@@ -316,10 +316,6 @@ legend{
     border:2px solid #E6CBCF;
     text-align: center;
 }
-.into h2{
-    color:#1f2937;
-    margin-bottom:10px;
-}
 
 /* Achievement page */
 
@@ -327,7 +323,7 @@ legend{
     background: white;
     padding: 25px;
     border-radius: 12px;
-    box-shadow: o 2px 10px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
     margin-bottom: 25px;
     border: 2px solid #E6CBCF;
 }
