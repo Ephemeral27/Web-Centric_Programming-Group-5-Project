@@ -754,7 +754,7 @@ padding:25px;
 border-radius:12px;
 box-shadow:0 2px 10px rgba(0,0,0,0.08);
 margin-bottom:25px;
-border:2px solid #E6CBCF;
+border:3px outset #E6CBCF;
 }
 
 .achievement-categories{
@@ -762,7 +762,11 @@ display:flex;
 flex-wrap:wrap;
 gap:20px;
 margin-bottom:30px;
+justify-content: center;
+
 }
+
+
 
 .achievement-card{
 flex:1;
@@ -770,7 +774,8 @@ min-width:220px;
 background:#f5f7fb;
 padding:20px;
 border-radius:10px;
-border:1px solid #E6CBCF;
+border:3px outset #E6CBCF;
+margin-bottom:10px ;
 }
 
 .achievement-card h3{
@@ -784,7 +789,7 @@ background:white;
 padding:25px;
 border-radius:12px;
 box-shadow:0 2px 10px rgba(0,0,0,0.08);
-border:2px solid #E6CBCF;
+border:3px outset #E6CBCF;
 }
 
 .achievement-reward img{
