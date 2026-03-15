@@ -800,3 +800,45 @@ border:3px outset #E6CBCF;
 width:150px;
 margin-bottom:10px;
 }
+
+
+.badge{
+    list-style:none;
+    margin-bottom:12px;
+    font-weight:600;
+}
+
+
+.progress{
+    height:8px;
+    border-radius:6px;
+    margin-top:6px;
+}
+
+
+.pink{
+    background:linear-gradient(to right,
+    rgb(164,19,60),
+    rgb(230,203,207)
+    );
+}
+
+
+
+.purple{
+    background:linear-gradient(to right,
+    rgb(71,18,107),
+    rgb(191,219,247)
+    );
+}
+
+.blue{
+    background:linear-gradient(to right,
+    rgb(17,24,39),
+    rgb(147,197,253)
+    );
+}
+
+
+
+
