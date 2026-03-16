@@ -343,6 +343,7 @@ fieldset label{
 textarea{
     border-radius: 20px;
     margin-top: 20px;
+<<<<<<< Updated upstream
     border: 2px solid #111827;
 }
 
@@ -363,6 +364,9 @@ textarea{
     border-radius: 15px;
     border: 2px solid #111827;
     margin-left: 5px;
+=======
+    margin-bottom: 20px;
+>>>>>>> Stashed changes
 }
 /*PRODUCTIVITY ARENA*/
 /*--cotton-rose: #D3B0AEff;
