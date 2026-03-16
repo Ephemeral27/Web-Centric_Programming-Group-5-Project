@@ -333,8 +333,6 @@ fieldset label{
 textarea{
     border-radius: 20px;
     margin-top: 20px;
-    margin-bottom: 20px;
-<<<<<<< Updated upstream
     border: 2px solid #111827;
 }
 
@@ -356,10 +354,6 @@ textarea{
     border: 2px solid #111827;
     margin-left: 5px;
 }
-
-=======
-}
->>>>>>> Stashed changes
 /*PRODUCTIVITY ARENA*/
 /*--cotton-rose: #D3B0AEff;
 --soft-blush: #E6CBCFff;
@@ -779,23 +773,6 @@ textarea{
 /* INDEX PAGE */
 
 .intro{
-<<<<<<< Updated upstream
-
-    background: white;
-    padding:25px;
-    border-radius:12px;
-    box-shadow:0 2px 10px rgba(0,0,0,0.08);
-    margin-bottom:25px;
-    /*border:2px solid #E6CBCF;*/
-    text-align:center;
-}
-
-.intro h2{
-    color:#1f2937;
-    margin-bottom:10px;
-
-=======
->>>>>>> Stashed changes
 /*background: white;*/
 background: #111827;
 padding:25px;
@@ -843,10 +820,6 @@ background:#f5f7fb;
 padding:15px;
 border-radius:8px;
 /*border:1px solid #d1d5db;*/
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 border:3px outset #E6CBCF;
 display: flex;
 flex-direction: column;
