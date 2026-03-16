@@ -922,7 +922,7 @@ min-width:220px;
     justify-content: center;
 
 }
-.achievement-grig{
+.achievement-grid{
     display: flex;
     gap:20px;
     flex-wrap:wrap;
