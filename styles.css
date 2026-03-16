@@ -334,7 +334,28 @@ textarea{
     border-radius: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+    border: 2px solid #111827;
 }
+
+.form-button{
+    margin-top: 20px;
+    background-color: rgba(230, 203, 207, 0.8);
+    border: 2px solid #E6CBCF;
+    border-radius: 20px;
+    padding: 15px;
+    font-weight: bold;
+    color: #111827;
+}
+.submit{
+    margin-right: 10px;
+}
+
+.text-input{
+    border-radius: 15px;
+    border: 2px solid #111827;
+    margin-left: 5px;
+}
+
 /*PRODUCTIVITY ARENA*/
 /*--cotton-rose: #D3B0AEff;
 --soft-blush: #E6CBCFff;
@@ -342,6 +363,13 @@ textarea{
 --peach-fuzz: #FAD6BAff;
 --antique-white: #FCE8D5ff;
 --slate-grey: #698587ff;*/
+#description{
+    border: 3px outset #E6CBCF;
+    text-align: center;
+    color: #111827;
+    font-weight: bold;
+    border-radius: 0px 0px 15px 15px;
+}
 
 /*POMODORO TIMER*/
 :root{
@@ -747,23 +775,20 @@ textarea{
 /* INDEX PAGE */
 
 .intro{
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+
     background: white;
     padding:25px;
     border-radius:12px;
     box-shadow:0 2px 10px rgba(0,0,0,0.08);
     margin-bottom:25px;
-    border:2px solid #E6CBCF;
+    /*border:2px solid #E6CBCF;*/
     text-align:center;
 }
 
 .intro h2{
     color:#1f2937;
     margin-bottom:10px;
-=======
-=======
->>>>>>> Stashed changes
+
 /*background: white;*/
 background: #111827;
 padding:25px;
@@ -778,7 +803,7 @@ text-align:center;
 /*color:#1f2937;*/
 color:#E6CBCF;
 margin-bottom:10px;
->>>>>>> Stashed changes
+
 }
 .intro p{
     color: #fff;
@@ -796,20 +821,19 @@ margin-bottom:10px;
 }
 
 .work{
-<<<<<<< Updated upstream
+
     background:#f5f7fb;
     padding:15px;
     border-radius:8px;
     border:1px solid #d1d5db;
     flex:1;
     min-width:220px;
-=======
+
 background:#f5f7fb;
 padding:15px;
 border-radius:8px;
 /*border:1px solid #d1d5db;*/
-<<<<<<< Updated upstream
-=======
+
 border:3px outset #E6CBCF;
 display: flex;
 flex-direction: column;
@@ -839,7 +863,7 @@ padding:25px;
 border-radius:12px;
 box-shadow:0 2px 10px rgba(0,0,0,0.08);
 margin-bottom:25px;
->>>>>>> Stashed changes
+
 border:3px outset #E6CBCF;
 display: flex;
 flex-direction: column;
@@ -848,7 +872,7 @@ align-items: center;
 text-align: center;
 flex:1;
 min-width:220px;
->>>>>>> Stashed changes
+
 }
 
 .blue{
