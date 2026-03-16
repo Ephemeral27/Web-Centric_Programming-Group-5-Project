@@ -334,6 +334,7 @@ textarea{
     border-radius: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+<<<<<<< Updated upstream
     border: 2px solid #111827;
 }
 
@@ -356,6 +357,9 @@ textarea{
     margin-left: 5px;
 }
 
+=======
+}
+>>>>>>> Stashed changes
 /*PRODUCTIVITY ARENA*/
 /*--cotton-rose: #D3B0AEff;
 --soft-blush: #E6CBCFff;
@@ -775,6 +779,7 @@ textarea{
 /* INDEX PAGE */
 
 .intro{
+<<<<<<< Updated upstream
 
     background: white;
     padding:25px;
@@ -789,6 +794,8 @@ textarea{
     color:#1f2937;
     margin-bottom:10px;
 
+=======
+>>>>>>> Stashed changes
 /*background: white;*/
 background: #111827;
 padding:25px;
@@ -804,6 +811,9 @@ text-align:center;
 color:#E6CBCF;
 margin-bottom:10px;
 
+}
+.intro p{
+    color: #fff;
 }
 .intro p{
     color: #fff;
@@ -833,7 +843,10 @@ background:#f5f7fb;
 padding:15px;
 border-radius:8px;
 /*border:1px solid #d1d5db;*/
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 border:3px outset #E6CBCF;
 display: flex;
 flex-direction: column;
