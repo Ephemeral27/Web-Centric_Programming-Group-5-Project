@@ -343,7 +343,6 @@ fieldset label{
 textarea{
     border-radius: 20px;
     margin-top: 20px;
-<<<<<<< Updated upstream
     border: 2px solid #111827;
 }
 
@@ -364,9 +363,6 @@ textarea{
     border-radius: 15px;
     border: 2px solid #111827;
     margin-left: 5px;
-=======
-    margin-bottom: 20px;
->>>>>>> Stashed changes
 }
 /*PRODUCTIVITY ARENA*/
 /*--cotton-rose: #D3B0AEff;
@@ -573,6 +569,9 @@ textarea{
     margin-top: 110px;
     /*positioning above*/
     width: 100%;
+    /*added to fx height check history*/
+    height: 48%;
+    /**/
     max-width: 400px;
     padding: 2rem;
     display: flex;
@@ -599,6 +598,8 @@ textarea{
 .todo-app h1{
     font-size: 2rem;
     color: #E6CBCF;
+    /*added to fx height check history*/
+    padding-top: 30px;
 }
 .input-area{
     display: flex;
@@ -607,6 +608,7 @@ textarea{
     width:100%;
     background-color: transparent;
     box-shadow: none;
+    border: none;
 }
 
 .input-area input{
