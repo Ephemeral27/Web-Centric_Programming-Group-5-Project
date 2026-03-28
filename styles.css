@@ -196,7 +196,8 @@ width:100%;
 }
 
 
-#calculate{
+
+#calculate,#addExpense{
     background:#6c63ff;
     color:white;
     border:none;
@@ -215,10 +216,33 @@ width:100%;
     line-height: 1.6;
 }
 
+.expense {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+
+
 #totalExpenses, #remainingBudget{
     flex:1;
     min-width: 180px;
 }
+
+.error {
+  color: red;
+  font-size: 14px;
+  display: block;
+  margin-top: 4px;
+}
+
+.input-error {
+  border: 2px solid red;
+}
+
+
+
+
 /* ABOUT PAGE */
 
 #about, #mission, #services, #team{
