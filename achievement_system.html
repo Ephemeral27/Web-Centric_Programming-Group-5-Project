@@ -9,7 +9,7 @@
     <header>
       <h1>LifeQuest Achievement system</h1>
       <p>Stay motivated by earning rewards for consistency</p>
-    </header>
+    
     <nav>
       <a href="index.html">Home</a>
       <a href="about.html">About Us</a>
@@ -20,6 +20,7 @@
       <a href="contact.html">Contact Us</a>
       <a href="signup_page.html">Sign up!</a>
     </nav>
+    </header>
     <main>
       <section class="achievement-intro">
         <h2>How the Achievement System Works</h2>
@@ -29,25 +30,31 @@
         </p>
       </section>
       <section class="achievement-categories">
-        
-        <h2>Achievement Categories</h2>
-        
+         <h2>Achievement Categories</h2>
         <div class="achievement-grid">
-          
-        <article class="achievement-card">
-          <h3>Health Achievements</h3>
-          <ul>
-            <li>7 Days Workout Streak</li>
-            <li>Hydration Champion</li>
-            <li>Healthy Sleep Badge</li>
-          </ul>
-        </article>
+          <article class="achievement-card">
+            <h3>Health Achievements</h3>
+            <ul>
+              <li class="badge">
+                7 Days Workout Streak
+                <div class="progress pink"></div>
+              </li>
+              <li class="badge">
+                Hydration Champion
+                <div class="progress pink"></div>
+              </li>
+              <li>Healthy Sleep Badge</li>
+           </ul>
+         </article>
         
         <article class="achievement-card">
           <h3> Money Achievement</h3>
           <ul>
             <li>First Budget Created</li>
-            <li>Saving Milestone</li>
+            <li class="badge">
+              Saving Milestone
+              <div class="progress purple"></div>
+            </li>
             <li>Expense Tracker Pro</li>
           </ul>
         </article>
@@ -56,7 +63,10 @@
           <h3>Productivity Achievements</h3>
           <ul>
             <li>Daily Planner Master</li>
-            <li>Task Completion Streak</li>
+            <li class="badge">
+              Task Completion Streak
+              <div class="progress blue"></div>
+            </li>
             <li>Weekly Goal Crusher</li>
           </ul>
         </article>
