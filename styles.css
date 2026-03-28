@@ -565,7 +565,7 @@ textarea{
     /*positioning above*/
     width: 100%;
     /*added to fx height check history*/
-    height: 48%;
+    /*height: 48%;*/
     /**/
     max-width: 400px;
     padding: 2rem;
@@ -594,7 +594,7 @@ textarea{
     font-size: 2rem;
     color: #E6CBCF;
     /*added to fx height check history*/
-    padding-top: 30px;
+    /*padding-top: 30px;*/
 }
 .input-area{
     display: flex;
