@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Healthy Habits | LifeQuest</title>
   <link rel="stylesheet" href="styles.css">
+  
  
 </head>
 
@@ -29,29 +30,32 @@
       <p>Log your daily habits to improve your wellness stats and earn rewards.</p>
 
       <form id="habitsForm">
-        <div class="habit-row">
-          <label for="water">Water (glasses)</label>
-          <input type="number" id="water" min="0" max="20" placeholder="e.g., 8">
-        </div>
+  <div class="habit-row field-group">
+    <label for="water">Water (glasses)</label>
+    <input type="number" id="water" min="0" max="20" placeholder="e.g., 8">
+    <small class="error" id="waterError"></small>
+  </div>
 
-        <div class="habit-row">
-          <label for="sleep">Sleep (hours)</label>
-          <input type="number" id="sleep" min="0" max="24" placeholder="e.g., 7">
-        </div>
+  <div class="habit-row field-group">
+    <label for="sleep">Sleep (hours)</label>
+    <input type="number" id="sleep" min="0" max="24" placeholder="e.g., 7">
+    <small class="error" id="sleepError"></small>
+  </div>
 
-        <div class="habit-row">
-          <label for="exercise">Exercise (minutes)</label>
-          <input type="number" id="exercise" min="0" max="300" placeholder="e.g., 30">
-        </div>
+  <div class="habit-row field-group">
+    <label for="exercise">Exercise (minutes)</label>
+    <input type="number" id="exercise" min="0" max="300" placeholder="e.g., 30">
+    <small class="error" id="exerciseError"></small>
+  </div>
 
-        <div class="habit-row">
-          <label for="meals">Meals (notes)</label>
-          <input type="text" id="meals" placeholder="e.g., balanced meals, no soda">
-        </div>
+  <div class="habit-row field-group">
+    <label for="meals">Meals (notes)</label>
+    <input type="text" id="meals" placeholder="e.g., balanced meals, no soda">
+    <small class="error" id="mealsError"></small>
+  </div>
 
-        <button type="button" id="logToday">Log Today</button>
-      </form>
-
+  <button type="button" id="logToday">Log Today</button>
+</form>
       <section class="wellness-summary">
         <h3>Wellness Summary</h3>
 
@@ -67,5 +71,6 @@
   <footer>
     <p>&copy; 2026 LifeQuest</p>
   </footer>
+  <script src="healthy_habits.js"></script>
 </body>
 </html>
