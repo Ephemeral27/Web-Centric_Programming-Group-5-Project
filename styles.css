@@ -339,6 +339,23 @@ color:white;
 --peach-fuzz: #FAD6BAff;
 --antique-white: #FCE8D5ff;
 --slate-grey: #698587ff;*/
+/*#signup_form form {
+    max-width: 600px; 
+    margin: 0 auto;   
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+input{
+    width:50%;
+}*/
+.error-message {
+        color: red;
+        font-weight: bold;
+        margin-bottom: 10px;
+        font-size: 0.9em;
+}
 fieldset{
     border-radius: 25px;
     text-align: center;
@@ -373,6 +390,9 @@ textarea{
     padding: 15px;
     font-weight: bold;
     color: #111827;
+}
+.form-button:active {
+    transform: scale(0.95);
 }
 .submit{
     margin-right: 10px;
