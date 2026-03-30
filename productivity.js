@@ -149,7 +149,7 @@ for (var i=0; i<currentDate;i++){
         totalDays.innerHTML = daysCompleted + "/" + daysInThisMonth;
         console.log(daysCompleted, currentDate);
         if(daysCompleted === currentDate){
-            alert("great progress");
+            alert("Fantastic! Keep up the Progress!");
         }
     }
 }
